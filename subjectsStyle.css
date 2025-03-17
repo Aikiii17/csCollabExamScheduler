@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.container {
+    max-width: 700px;
+    min-width: 400px;
+    width: 70%;
+    padding: 25px 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}   
+header {
+    font-size: 24px;
+    font-weight: bold;      
+    position: relative;
+}
+
+.search-bar {
+    background-color: #eee;
+    width: 100%;
+    height: 30px;
+    border-radius: 50px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 25px;
+}
+input{
+    width: 100%;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 18px;
+}
+.fa-solid:hover{
+    color: orangered;
+    cursor: pointer;
+}
+
+
+/*table CSS*/   
+.content-table {
+    border-collapse: collapse;
+    margin: 15px 0 25px 0;
+    font-size: 0.9em;
+    width: 100%;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.content-table thead tr {
+    background-color: cornflowerblue;
+    color: aliceblue;
+    text-align: left;
+    font-weight: bold;
+}
+.content-table th,
+.content-table td {
+    padding: 12px 15px; 
+}
+.content-table tbody tr {
+    border-bottom: 1px solid lightgray;
+}
+.content-table tbody tr:nth-of-type(2){
+    background-color: #f3f3f3;
+}           
+.content-table tbody tr:last-of-type{
+border-bottom: 2px solid cornflowerblue;
+}
