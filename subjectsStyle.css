@@ -79,3 +79,23 @@ input{
 .content-table tbody tr:last-of-type{
 border-bottom: 2px solid cornflowerblue;
 }
+
+.container .btn {
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+
+}   
+.container button {
+    padding: 10px 50px;
+    border-radius: 5px;
+    border-style: none;
+    background-color: cornflowerblue;
+    cursor: pointer;
+    font: 1rem;
+    font-weight: 400;
+    color: aliceblue;
+}
+.container button:hover {
+    opacity: .5;
+}
